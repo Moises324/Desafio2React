@@ -40,7 +40,7 @@ function Formulario({ addAlert }) {
       });
     } else if (!isValidEmail.test(inputs.email)) {
       addAlert({
-        texto: 'Formato de email incorrecto!',
+        texto: 'Formato de email incorrecto',
         tipo: 'alert-danger',
         estado: true,
       });
@@ -58,7 +58,7 @@ function Formulario({ addAlert }) {
       });
     } else {
       addAlert({
-        texto: 'Registro creado exitosamente!',
+        texto: 'Registro creado exitosamente',
         tipo: 'alert-success',
         estado: true,
       });
