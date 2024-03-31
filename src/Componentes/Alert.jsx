@@ -5,7 +5,7 @@ export default function Alert({ alerta }) {
 
   if (estado) {
     return (
-      <div className={alert ${tipo} mt-1}>
+      <div className={`alert ${tipo} mt-1`}>
         {texto}
       </div>
     );
